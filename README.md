@@ -1,6 +1,6 @@
 ---
 title: API Demo Server
-emoji: 🚀
+emoji: 🔌🌐
 colorFrom: red
 colorTo: yellow
 sdk: gradio

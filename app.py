@@ -12,5 +12,5 @@ def echo(text, request: gr.Request):
         output_text = json.add({"query_params": dict(request.query_params)})
     return output_text
 
-io = gr.Interface(echo, "textbox", "JSON").launch(share=True) 
+io = gr.Interface(echo, "textbox", "json").launch(share=True) 
 

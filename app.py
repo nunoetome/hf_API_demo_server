@@ -4,8 +4,8 @@ import json
 DEBUG_MODE = False
 
 def echo(text, request: gr.Request):
-    output_text = {"report1": SUCCESS}  # Initialize as a dictionary
-    output_text["report2"] = "You inserted the text: " 
+    output_text = {"report1": "SUCCESS"}  # Initialize as a dictionary
+    output_text["report2"] = "You inserted the text:" 
     output_text["report3"] = text
     if request:
         if DEBUG_MODE:

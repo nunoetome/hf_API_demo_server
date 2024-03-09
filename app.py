@@ -1,7 +1,7 @@
 import gradio as gr
 import json
 
-DEBUG_MODE = True
+DEBUG_MODE = False
 
 def echo(text, request: gr.Request):
     output_text = {"text": text}  # Initialize as a dictionary
